@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,600&display=swap');
+
+:root {
+    --heading-gray: #333333;
+    --main-gray: #4F4F4F;
+    --para-gray: #828282;
+    --btn-gray: #E0E0E0;
+    --light-gray: #F2F2F2;;
+
+    --blue: #2D9CDB;
+    --red: #EB5757;
+}   
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+*::after, *::before {box-sizing: inherit;}
+
+html {font-size: 62.5%;}
+a {text-decoration: none;}
+li {list-style-type: none;}
+
+.spacing > * + * { margin: 2rem 0;}
+
+.heading {
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: var(--heading-gray);
+    max-width: 22.7rem;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    padding: 1.3rem 1rem 0 1rem;
+    position: relative;
+}
+
+.header-wrap h1 {
+    color: var(--heading-gray);
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+.nav-toggle {
+    padding: 1rem;
+    position: absolute;
+    right: 5%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.mobile-nav {
+    position: relative;
+    display: block;
+    right: 5%;
+    width: 2.5rem;
+    height: .2rem;
+    background: var(--heading-gray)
+}
+
+.mobile-nav::before,
+.mobile-nav::after {
+    content: '';
+    position: absolute;
+    background: inherit;
+    width: 2.5rem;
+    height: .2rem;
+    left: 0%;
+}
+
+.mobile-nav::before {
+    top: .6rem;
+}
+.mobile-nav::after {
+    bottom: .6rem;
+}
+
+.nav-list ul {
+    display: none;
+}
+
+/* .nav-list {
+    position: relative;
+    inset: 0;
+    z-index: 11;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.nav-list ul {
+    background: var(--blue);
+    
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.nav-list a {
+    color: #fff;
+} */
+
+/*-------------Hero Section--------------*/
+.hero-info p {
+    color: var(--blue);
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    
+}
+
+/* .hero-info h2 {
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: var(--heading-gray);
+} */
+
+.hero-text-top,
+.hero-text-bottom {
+    max-width: 27rem;
+    
+    margin-left: 4rem;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-img img {
+    display: block;
+    width: 95%;
+    margin: 2rem auto;
+    border-radius: 1.8rem;
+    min-height: 14.5rem;
+    max-height: 35.5rem;
+    object-fit: fill;
+}
+.hero-text-top p {margin-top: 6.6rem;}
+.hero-text-bottom {
+margin-left: 4rem;
+}
+
+.hero-text-bottom h2 {
+    max-width: 22.7rem;
+}
+
+.hero-text-bottom p {
+    color: var(--main-gray);
+    line-height: 1.8rem;
+}
+
+.newsletter small{
+    color: var(--main-gray);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.form-field {
+    position: relative;
+    /* min-width: 29.1rem; */
+    max-width: 29rem;
+    height: 100%;
+}
+
+.form-field input {
+    background: var(--light-gray);
+    min-height: 4.7rem;
+    color: #BDBDBD;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 1.2rem;
+    padding-left: 1.9rem;
+    min-width: 29.1rem;
+    
+}
+
+.form-field > button {
+    position: absolute;
+    top: 7%;
+    left: 80%;
+    display: block;
+    background: var(--blue);
+    border: none;
+    color: #fff;
+    /* padding: 1.1rem 1.7rem; */
+    width: 7rem;
+    height: 4.1rem;
+    border-radius: 1.2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 45rem) {
+    .form-field {
+        max-width: 35rem;
+    }
+    .form-field input {
+        width: 100%;
+    }
+
+}
+
+
+/*------------services-section--------------*/
+.services-section h2 {
+    margin-left: 4rem;
+}
+
+.services-container {
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem; */
+    padding: 1.5rem;
+}
+
+.card {
+    padding: 4.9rem 0 5.2rem 3.4rem;
+    border-radius: 2.4rem;
+    transition: 200ms ease-in-out;
+}
+
+.card i {
+    color: #fff;
+    width: 6.7rem;
+    height: 6.7rem;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-size: 2.7rem;
+    border-radius: 1.6rem;
+}
+
+.card h3 {
+    color: var(--heading-gray);
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.fa-pen {
+    background: var(--blue);    
+}
+
+.fa-code {
+    background: #27AE60;
+}
+
+.fa-server {
+    background: var(--red);
+}
+
+.card p {
+    max-width: 27.3rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--main-gray);
+}
+
+.card a {
+    display: inline-block;
+    padding: .9rem 1.3rem;
+    background: var(--btn-gray);
+    color: var(--para-gray);
+    border-radius: 1.2rem;
+
+    font-weight: 500;
+    font-size: 1.6rem;
+
+    transition: 200ms ease-in-out;
+}
+
+.card a:hover {
+    background: var(--blue);
+    color: #fff;
+}
+
+.card:hover {
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+@media screen and (min-width: 32rem) {
+    .services-container {
+        display: flex;
+        flex-flow: wrap;
+        justify-content:space-between;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 45rem) {
+    .services-container {
+        justify-content: space-around;
+    }
+
+    .card {
+        padding-right: 4.7rem;
+    }
+}
+
+
+/*-----------Designs Section------------*/
+.designs-section h2 {
+    margin-left: 4rem;
+}
+
+.card-design {
+    width: 95%;
+    margin: 2rem auto;
+    max-width: 35vw;
+}
+
+.card-design img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 2.4rem;
+}
+
+.card-design h4 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: var(--para-gray);
+}
+
+.card-design h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    color: var(--heading-gray);
+}
+
+.designs a {
+    display: inline-block;
+    color: var(--blue);
+    font-size: 1.8rem;
+    font-weight: 500;
+    align-self: flex-end;
+    margin-top: 3.5rem;
+}
+
+@media screen and (min-width: 35rem){
+    .services-section, 
+    .designs-section {
+        max-width: 150rem;
+        margin: 0 auto;
+    }
+    
+    .services-section h2, 
+    .designs-section h2 {
+        max-width: 44.8rem;
+        font-size: clamp(2.4rem, 2vw, 3.6rem);
+        line-height: 5.4rem;
+    }
+
+    .designs {
+        /* display: flex; */
+        /* flex-flow: wrap; */
+        /* max-width: 120rem;
+        margin: 4rem auto;
+        */
+        /* column-gap: 3rem; */
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        row-gap: 15rem;
+    }
+
+
+    .card-design {
+        margin: 0;
+        max-width: 90%;
+    }
+
+    .card-design:first-of-type {
+        margin-top: 20rem;
+    }
+
+    .card-design:last-of-type {
+        margin-top: -20rem;
+    }
+}
