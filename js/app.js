@@ -22,3 +22,12 @@ navBtn.addEventListener('click', () => {
 
     navElement.classList.add('open')
 })
+
+const removeNavMenu = () => {
+    navMenu.classList.remove('open')
+    menuBars.classList.remove('active')
+}
+
+navElement.forEach(navEl => {
+    navEl.addEventListener('click', removeNavMenu)
+})
