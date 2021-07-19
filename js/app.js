@@ -26,6 +26,7 @@ navBtn.addEventListener('click', () => {
 const removeNavMenu = () => {
     navMenu.classList.remove('open')
     menuBars.classList.remove('active')
+    body.style.overflow = "scroll"
 }
 
 navElement.forEach(navEl => {
