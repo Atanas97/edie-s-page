@@ -18,12 +18,9 @@
 
 ## Screenshots
 
-
-  Desktop version: <img src="./img/desktop.png" width="300" height="600"> Tablet version: <img src="./img/tablet.png" width="300" height="600">Phone version: <img src="./img/mobile.png" width="300" height="600">
-  
-  
-  
-  
+Dekstop version (https://i.imgur.com/uMtDuib.png)
+Tablet version (https://i.imgur.com/GcLb4EU.png)
+Mobile version (https://i.imgur.com/d8VTVV3.png)
 
 ### Built With
 
