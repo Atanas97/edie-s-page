@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Recipe Page - devChallenges.io}</h1>
+<h1 align="center">Edie's page Challenge</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -25,8 +25,8 @@
 
 ## Overview
 
-![screenshot] Desktop version: (https://i.imgur.com/set3Yao.png) 
-              Mobile version: (https://i.imgur.com/wKgVGte.png)
+![screenshot] 
+              
 
 
 ### Built With
