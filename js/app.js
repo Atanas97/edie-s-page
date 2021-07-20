@@ -32,3 +32,4 @@ const removeNavMenu = () => {
 navElement.forEach(navEl => {
     navEl.addEventListener('click', removeNavMenu)
 })
+
