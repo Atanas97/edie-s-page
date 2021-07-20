@@ -14,10 +14,10 @@
     </a>
   </h3>
 </div>
-
+![]<img src="./img/desktop.png" width="300">
 
 ## Overview
-             ![]<img src="./img/desktop.png" width="300">
+             
 <!-- ![screenshot] Desktop version: ![desktop](https://user-images.githubusercontent.com/77697122/126345110-2ab98bf7-632b-4299-814c-2fdf5182cc4f.png width="300")
               Tablet version: ![tablet](https://user-images.githubusercontent.com/77697122/126345136-8d3aa4c1-3971-4780-9102-4f50bc2cbee4.png)
 
