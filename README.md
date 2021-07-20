@@ -18,7 +18,7 @@
 
 ## Screenshots
 
-<div>
+<div align="center">
   Desktop version: <img src="./img/desktop.png" width="300">
   
   Tablet version: <img src="./img/tablet.png" width="300">
