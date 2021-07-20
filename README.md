@@ -19,11 +19,11 @@
 ## Screenshots
 
 <div align="center">
-  Desktop version: <img src="./img/desktop.png" width="300">
+  Desktop version: <img src="./img/desktop.png" width="300"> Tablet version: <img src="./img/tablet.png" width="300">Phone version: <img src="./img/phone.png" width="300">
   
-  Tablet version: <img src="./img/tablet.png" width="300">
   
-  Phone version: <img src="./img/phone.png" width="300">
+  
+  
 
  </div>
 ### Built With
