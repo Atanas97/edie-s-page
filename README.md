@@ -14,15 +14,14 @@
     </a>
   </h3>
 </div>
-![]<img src="./img/desktop.png" width="300">
 
-## Overview
-             
-<!-- ![screenshot] Desktop version: ![desktop](https://user-images.githubusercontent.com/77697122/126345110-2ab98bf7-632b-4299-814c-2fdf5182cc4f.png width="300")
-              Tablet version: ![tablet](https://user-images.githubusercontent.com/77697122/126345136-8d3aa4c1-3971-4780-9102-4f50bc2cbee4.png)
 
-              Mobile version: ![mobile](https://user-images.githubusercontent.com/77697122/126345147-2f340758-59f8-4de7-bca2-de38fec5f822.png)
- -->
+## Screenshots
+
+Desktop version: <img src="./img/desktop.png" width="300">
+Tablet version: <img src="./img/tablet.png" width="300">
+Phone version: <img src="./img/phone.png" width="300">
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
