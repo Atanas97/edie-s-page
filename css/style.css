@@ -33,7 +33,7 @@ li {list-style-type: none;}
     font-weight: 500;
     font-size: 2.4rem;
     color: var(--heading-gray);
-    /* max-width: 22.7rem; */
+    
 }
 
 .header-wrap {
@@ -204,8 +204,11 @@ main {overflow: hidden;}
 .hero-text-top,
 .hero-text-bottom {
     max-width: 27rem;
-    
     margin-left: 4rem;
+}
+
+.hero-text-top h2 {
+    max-width: 28rem;
 }
 
 .hero-img {
@@ -226,7 +229,9 @@ main {overflow: hidden;}
     margin-left: 4rem;
 }
 
-
+.hero-text-bottom h2 {
+    max-width: 22rem;
+}
 
 .hero-text-bottom p {
     color: var(--main-gray);
@@ -293,7 +298,9 @@ main {overflow: hidden;}
         font-size: clamp(2.4rem, 2.5vw, 4.8rem);
     }
 
-    .hero-text-top h2 {width: 54rem !important;}
+    .hero-text-top h2 {
+        max-width: 40rem !important;
+    }
 
     .hero-text-bottom p {
         font-size: 1.8rem;
@@ -469,7 +476,7 @@ main {overflow: hidden;}
     
     .services-section h2, 
     .designs-section h2 {
-        max-width: 44.8rem;
+        max-width: 35.8rem;
         font-size: clamp(2.4rem, 2vw, 3.6rem);
         line-height: 5.4rem;
     }

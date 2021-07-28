@@ -1,10 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<<<<<<< HEAD
 <h1 align="center">Edie's page Challenge</h1>
-=======
-<h1 align="center">{Edie's page challenge}</h1>
->>>>>>> c7b42a05b419e245a416f833305e711880e0a81e
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
