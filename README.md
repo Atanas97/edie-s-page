@@ -23,19 +23,11 @@
 </div>
 
 
-## Overview
-             
-![screenshot] Desktop version: ![desktop](https://user-images.githubusercontent.com/77697122/126345110-2ab98bf7-632b-4299-814c-2fdf5182cc4f.png width="300")
-              Tablet version: ![tablet](https://user-images.githubusercontent.com/77697122/126345136-8d3aa4c1-3971-4780-9102-4f50bc2cbee4.png)
+## Screenshots
 
-              Mobile version: ![mobile](https://user-images.githubusercontent.com/77697122/126345147-2f340758-59f8-4de7-bca2-de38fec5f822.png)
-
-<<<<<<< HEAD
-![screenshot] 
-              
-=======
->>>>>>> c7b42a05b419e245a416f833305e711880e0a81e
-
+Dekstop version (https://i.imgur.com/uMtDuib.png)
+Tablet version (https://i.imgur.com/GcLb4EU.png)
+Mobile version (https://i.imgur.com/d8VTVV3.png)
 
 ### Built With
 
