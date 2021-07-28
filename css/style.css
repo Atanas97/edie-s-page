@@ -270,7 +270,7 @@ main {overflow: hidden;}
 .form-field > button {
     position: absolute;
     top: 7%;
-    left: 80%;
+    left: 75%;
     display: block;
     background: var(--blue);
     border: none;
@@ -323,6 +323,7 @@ main {overflow: hidden;}
 
     .font-field button {font-size: 1.8rem;}
 
+    .form-field > button {left: 80%;}
 }
 
 
